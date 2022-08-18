@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">
+        <style>
+            body {
+                background: url("https://www.w3schools.com/howto/img_link_tree_template2_bg.jpg");
+            }
+            .container {
+                width: 100%;
+                height: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .links-container a {
+      width: 80%;
+    }
+
+    .w3-theme-l1:hover {
+      background-color: #f279a1 !important;
+    }
+
+    .margin-top-2 {
+      margin-top: 32px;
+    }
+
+    .bottom {
+      width: 100%;
+      text-align: center;
+      width: auto;
+      font-weight: bolder;
+    }
+
+    .bottom span {
+      color: #ed4d82;
+    }
+
+    .bottom svg {
+      stroke: #ed4d82;
+      fill: #ed4d82;
+    }
+
+    @media (min-width: 768px) {
+      .link {
+        width: 100%;
+      }
+    }
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
+    }
+        </style>
+    </head>
+    <!--
+    <body>
+        <div style="text-align: center">
+            <img src="https://scontent.fcai1-2.fna.fbcdn.net/v/t39.30808-6/287934282_101232925969092_8582980854172682412_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8631f5&_nc_eui2=AeGxNcCejB6rBFQKkHs61XQoSjBZCVgSULBKMFkJWBJQsI0xCvQ0UmwaYf68SGD23Eq-cvX4Z_bf9uVnTPkT2bpq&_nc_ohc=Jk60Mj4gY_4AX--7E2b&_nc_ht=scontent.fcai1-2.fna&oh=00_AT9ccIYO4BOQQTbGgFI72QREkOi2aghKROhJuHM3Phinzg&oe=63030172" class="w3-margin" alt="image" width="150px" height="150px" style="border-radius: 50%;">
+            <h2 class="margin-top-2" style="text-align: center;">Heavenly Trinkets</h2>
+            <h3 class="margin-top-2" style="text-align: center;">Follow us on Instagram!</h3>
+            <a href="https://www.instagram.com/heavenly__trinkets_/">Instagram</a>
+            <h3 class="margin-top-2" style="text-align: center;">Follow us on TikTok for behind the scenes and more!</h3>
+            <a href="https://www.tiktok.com/@heavenly__trinkets_">TikTok</a>
+            <h3 class="margin-top-2" style="text-align: center;">Join our Group for the latest deals!</h3>
+            <a href="https://web.facebook.com/groups/912071133078366/?ref=share_group_link&_rdc=1&_rdr">Facebook Group</a>
+            <h3 class="margin-top-2" style="text-align: center;">Like our Facebook Page!</h3>
+            <a href="https://web.facebook.com/Heavenly_Trinkets-100516836040701/?hc_ref=ARRxpMO4RJFRHutDskgtzhU5x0uO0nPGGxN163nNxx_GTuHT29oU62mr0RtKQAKI9Uw&fref=nf&__xts__[0]=68.ARAkA2UL9OMXnqTaRSQOYv143bJ_9UHFH0Zz4FS8ENSUkJtBXRL9VSgJ2wsew9MoTbDop1eXOm4C0JXefHl6PuPwK3eH7xtY7CaziIOVu9OuT6Sw6fTwQU50kwhC_ZPKWAUlHZqZ4AuYNrVxI2O2fjBMihQHm54D5xQPtsKy_X7fnyBqztjg0dVXsIfEduVCauNWyQJNo82SmPsaxcP9qwD4wv29wYx34D0PuEMhS40-DTZicQESn_qZSpHkiRf2tjbOd38rbEwB6-25lU4mYUB1QNuUz-doiJRB6WEzv3L15XRCwENKQiWdt8nM6167VktB02_3NA7iRQ&__tn__=kC-R">Facebook Page</a>
+        </div>
+    </body>
+    --><body>
+    <div class="container">
+
+        <div style="text-align: center">
+  
+            <img src="https://scontent.fcai1-2.fna.fbcdn.net/v/t39.30808-6/287934282_101232925969092_8582980854172682412_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8631f5&_nc_eui2=AeGxNcCejB6rBFQKkHs61XQoSjBZCVgSULBKMFkJWBJQsI0xCvQ0UmwaYf68SGD23Eq-cvX4Z_bf9uVnTPkT2bpq&_nc_ohc=Jk60Mj4gY_4AX--7E2b&_nc_ht=scontent.fcai1-2.fna&oh=00_AT9ccIYO4BOQQTbGgFI72QREkOi2aghKROhJuHM3Phinzg&oe=63030172" class="w3-margin" alt="image" width="150px" height="150px" style="border-radius: 50%;">
+            <p><span class="name w3-padding w3-pink w3-round" style="font-weight: bolder;">Heavenly Trinkets</span></p>
+            <p style="font-weight: bolder;">Check out our links!</p>
+        </div>
+  
+        <h4 class="margin-top-2" style="text-align: center;">Follow us on Instagram!</h4>
+        <div class="links-container">
+          <a href="https://www.instagram.com/heavenly__trinkets_/" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Instagram</a>
+        </div>
+        <h4 class="margin-top-2" style="text-align: center;">Follow us on TikTok for behind the scenes and more!</h4>
+        <div class="links-container">
+          <a href="https://www.tiktok.com/@heavenly__trinkets_" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">TikTok</a>
+        </div>
+        <h4 class="margin-top-2" style="text-align: center;">Join our Group for the latest deals!</h4>
+        <div class="links-container">
+          <a href="https://web.facebook.com/groups/912071133078366/?ref=share_group_link&_rdc=1&_rdr" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Facebook Group</a>
+        </div>
+        <h4 class="margin-top-2" style="text-align: center;">Like our Facebook Page!</h4>
+        <div class="links-container">
+          <a href="https://web.facebook.com/Heavenly_Trinkets-100516836040701/?hc_ref=ARRxpMO4RJFRHutDskgtzhU5x0uO0nPGGxN163nNxx_GTuHT29oU62mr0RtKQAKI9Uw&fref=nf&__xts__[0]=68.ARAkA2UL9OMXnqTaRSQOYv143bJ_9UHFH0Zz4FS8ENSUkJtBXRL9VSgJ2wsew9MoTbDop1eXOm4C0JXefHl6PuPwK3eH7xtY7CaziIOVu9OuT6Sw6fTwQU50kwhC_ZPKWAUlHZqZ4AuYNrVxI2O2fjBMihQHm54D5xQPtsKy_X7fnyBqztjg0dVXsIfEduVCauNWyQJNo82SmPsaxcP9qwD4wv29wYx34D0PuEMhS40-DTZicQESn_qZSpHkiRf2tjbOd38rbEwB6-25lU4mYUB1QNuUz-doiJRB6WEzv3L15XRCwENKQiWdt8nM6167VktB02_3NA7iRQ&__tn__=kC-R" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Facebook Page</a>
+        </div>
+  
+        <div class="bottom margin-top-2 w3-padding w3-round">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          <span style="vertical-align: 7px;"> 2022 - Heavenly Trinkets</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          <p> </p>
+          <p> </p>
+          <p> </p>
+        </div>
+      </div>
+    </body>
+</html>
